@@ -1,0 +1,31 @@
+<!-- templates/about.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Twitter Video Downloader</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <button class="btn btn-outline-success" type="button"><li><a href="{{ url_for('index') }}"> Home </a></li></button>
+    <div class="container">
+        <h1>About Twitter Video Downloader</h1>
+        <p>
+            This website allows you to download Twitter videos by providing the video URL and selecting the desired resolution. 
+            Please note that the videos are not hosted on our servers. 
+            Instead, we use a library to fetch the video content directly from Twitter servers.
+        </p>
+        <p>
+            This means that the downloaded videos are fetched in real-time from Twitter's servers and are not stored or hosted on our platform.
+        </p>
+        <p>
+            If you encounter any issues or have suggestions for improvement, feel free to contact us.
+        </p>
+    </div>
+    <!-- Include Bootstrap JS (Optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
